@@ -1,6 +1,6 @@
 token:
   expiration_time: 864000000
-  secret: value_1_prod_changeBusCheck111
+  secret: value_1_prod_changeBusCheck
 
 gateway:
   ip: 192.168.0.8
