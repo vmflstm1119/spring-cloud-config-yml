@@ -6,7 +6,7 @@ token:
   expiration_time: 864000000
   secret: value_sample_service2_local
 
-  ---
+---
 
 spring:
   config:
