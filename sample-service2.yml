@@ -8,7 +8,7 @@ token:
 
   ---
 
-  spring:
+spring:
   config:
     activate:
       on-profile: prod
