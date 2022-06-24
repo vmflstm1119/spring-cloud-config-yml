@@ -6,9 +6,9 @@ token:
   expiration_time: 864000000
   secret: value_sample_service1_local
 
-  ---
+---
 
-  spring:
+spring:
   config:
     activate:
       on-profile: prod
