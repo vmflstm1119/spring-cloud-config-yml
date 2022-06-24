@@ -1,3 +1,25 @@
+spring:
+  config:
+    activate:
+      on-profile: local
 token:
   expiration_time: 864000000
   secret: value_sample2_local
+  
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+token:
+  expiration_time: 864000000
+  secret: value_sample2_dev
+  
+---  
+spring:
+  config:
+    activate:
+      on-profile: prod
+token:
+  expiration_time: 864000000
+  secret: value_sample2_prod
