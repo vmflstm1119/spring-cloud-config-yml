@@ -1,3 +1,8 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+
 token:
   expiration_time: 864000000
   secret: value_sample1_changed_1111
