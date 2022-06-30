@@ -4,7 +4,7 @@ spring:
       on-profile: local
 token:
   expiration_time: 864000000
-  secret: value_sample_service1_local_changed22222
+  secret: value_sample_service1_local
 
 ---
 
@@ -14,4 +14,4 @@ spring:
       on-profile: prod
 token:
   expiration_time: 864000000
-  secret: value_sample_service1_prod2222222
+  secret: value_sample_service1_prod
