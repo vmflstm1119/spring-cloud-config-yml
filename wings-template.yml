@@ -3,7 +3,7 @@ spring:
     activate:
       on-profile: local
 
-test: localTestChangedMessage
+test: localTestChanged
 
 
 ---
@@ -13,4 +13,4 @@ spring:
     activate:
       on-profile: prod
 
-test: productionTestChangedMessage
+test: productionTestChanged
