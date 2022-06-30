@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+
+test: localTestChanged
+
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+test: productionTestChanged
