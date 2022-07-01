@@ -3,7 +3,7 @@ spring:
     activate:
       on-profile: local
 
-test: localSampleChanged_999
+test: localSampleChanged_asdasd
 
 
 ---
@@ -13,4 +13,4 @@ spring:
     activate:
       on-profile: prod
 
-test: productionSampleChanged_999
+test: productionSampleChanged_asdasd
