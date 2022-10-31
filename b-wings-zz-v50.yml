@@ -1,0 +1,24 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+
+test: wings_zz_v50_local
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: stage
+
+test: wings_zz_v50_stage
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+test: wings_zz_v50_prod
